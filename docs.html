@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Copilot AgentOps | Documentation</title>
+    <meta
+      name="description"
+      content="Documentation for Copilot AgentOps: how to install the MCP server and use the reusable instructions, prompts, agents, skills, hooks, and collections."
+    />
+    <meta property="og:title" content="Copilot AgentOps Documentation" />
+    <meta
+      property="og:description"
+      content="Learn how to install Copilot AgentOps and use the accelerator inside VS Code."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.copilotagentops.com/docs.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient">
+      <div class="orb orb-a"></div>
+      <div class="orb orb-b"></div>
+      <div class="orb orb-c"></div>
+    </div>
+
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <span class="brand-mark">CAO</span>
+          <div>
+            <p class="brand-name">Copilot AgentOps</p>
+            <p class="brand-tag">Accelerator for GitHub Copilot</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="index.html#overview">Overview</a>
+          <a href="index.html#parts">Two Parts</a>
+          <a href="index.html#resources">Resources</a>
+          <a href="docs.html">Docs</a>
+        </nav>
+        <a class="button ghost" href="index.html#get-started">Get Started</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">Documentation</p>
+          <h1>How to Use Copilot AgentOps</h1>
+          <p class="lead">
+            Copilot AgentOps is a curated accelerator for GitHub Copilot. It
+            combines a reusable GitHub repository of instructions, prompts,
+            agents, skills, hooks, and collections with an MCP server that makes
+            discovery available directly inside VS Code.
+          </p>
+          <div class="badge-row">
+            <span class="badge">Library-first</span>
+            <span class="badge">VS Code MCP integration</span>
+            <span class="badge">Curated best practices</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">What Is Inside</p>
+            <h2>The Copilot AgentOps Library, Organized for Reuse.</h2>
+          </div>
+          <div class="doc-grid">
+            <article class="doc-card">
+              <h3>Agents</h3>
+              <p>
+                Specialized Copilot personas that focus on distinct workflows or
+                tools, ready for Copilot coding agent and VS Code sessions.
+              </p>
+              <a
+                class="pill"
+                href="https://github.com/ajilantony/copilot-agentops/blob/main/docs/README.agents.md"
+                target="_blank"
+                rel="noreferrer"
+                >Agents guide</a
+              >
+            </article>
+            <article class="doc-card">
+              <h3>Prompts</h3>
+              <p>
+                Task-specific prompts designed for analysis, generation, and
+                acceleration across SDLC stages.
+              </p>
+              <a
+                class="pill"
+                href="https://github.com/ajilantony/copilot-agentops/blob/main/docs/README.prompts.md"
+                target="_blank"
+                rel="noreferrer"
+                >Prompts guide</a
+              >
+            </article>
+            <article class="doc-card">
+              <h3>Instructions</h3>
+              <p>
+                Coding standards and best practices that apply automatically to
+                matching files and repositories.
+              </p>
+              <a
+                class="pill"
+                href="https://github.com/ajilantony/copilot-agentops/blob/main/docs/README.instructions.md"
+                target="_blank"
+                rel="noreferrer"
+                >Instructions guide</a
+              >
+            </article>
+            <article class="doc-card">
+              <h3>Hooks</h3>
+              <p>
+                Automated workflows triggered by events during Copilot coding
+                agent sessions.
+              </p>
+              <a
+                class="pill"
+                href="https://github.com/ajilantony/copilot-agentops/blob/main/docs/README.hooks.md"
+                target="_blank"
+                rel="noreferrer"
+                >Hooks guide</a
+              >
+            </article>
+            <article class="doc-card">
+              <h3>Skills</h3>
+              <p>
+                Bundled resources and instructions that deliver specialized AI
+                capabilities for repeatable tasks.
+              </p>
+              <a
+                class="pill"
+                href="https://github.com/ajilantony/copilot-agentops/blob/main/docs/README.skills.md"
+                target="_blank"
+                rel="noreferrer"
+                >Skills guide</a
+              >
+            </article>
+            <article class="doc-card">
+              <h3>Collections & Cookbook</h3>
+              <p>
+                Curated bundles of prompts and instructions plus practical
+                recipes you can paste into workflows immediately.
+              </p>
+              <div class="pill-row">
+                <a
+                  class="pill"
+                  href="https://github.com/ajilantony/copilot-agentops/blob/main/docs/README.collections.md"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Collections</a
+                >
+                <a
+                  class="pill"
+                  href="https://github.com/ajilantony/copilot-agentops/blob/main/cookbook/README.md"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Cookbook</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Repository Structure</p>
+            <h2>Know Where Everything Lives.</h2>
+          </div>
+          <pre class="code-block"><code>copilot-agentops/
+├── prompts/          # Task-specific prompts (.prompt.md)
+├── instructions/     # Coding standards and best practices (.instructions.md)
+├── agents/           # AI personas and specialized modes (.agent.md)
+├── collections/      # Curated collections of related items (.collection.yml)
+├── hooks/            # Event-driven automation for Copilot coding agent
+├── skills/           # Bundled capabilities and resources
+├── cookbook/         # Practical recipes and examples
+├── plugins/          # Installable plugins generated from collections
+└── scripts/          # Utility scripts for maintenance</code></pre>
+        </div>
+      </section>
+
+      <section class="section" id="install">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Install MCP Server</p>
+            <h2>Enable In-Editor Discovery in VS Code.</h2>
+          </div>
+          <div class="doc-steps">
+            <article class="doc-step">
+              <span class="step">01</span>
+              <div>
+                <h3>Open MCP Settings</h3>
+                <p>
+                  In VS Code, open the Command Palette and choose
+                  <span class="mono">MCP: Open User Configuration</span> to open
+                  your <span class="mono">mcp.json</span> file.
+                </p>
+              </div>
+            </article>
+            <article class="doc-step">
+              <span class="step">02</span>
+              <div>
+                <h3>Add the Copilot AgentOps Server</h3>
+                <p>
+                  Add the following block inside the top-level
+                  <span class="mono">servers</span> object.
+                </p>
+                <pre class="code-block"><code>{
+  "servers": {
+    "copilot-agentops": {
+      "command": "docker",
+      "args": ["run", "-i", "--rm", "ajilantony/copilot-agentops:latest"]
+    }
+  }
+}</code></pre>
+              </div>
+            </article>
+            <article class="doc-step">
+              <span class="step">03</span>
+              <div>
+                <h3>Start the MCP Server</h3>
+                <p>
+                  Click Start in the MCP panel to pull the Docker image and run
+                  the server locally. You will see the available tools and
+                  prompts listed in VS Code.
+                </p>
+              </div>
+            </article>
+          </div>
+          <p class="muted">
+            Prerequisite: Docker must be installed and running to launch the MCP
+            server.
+          </p>
+        </div>
+      </section>
+
+      <section class="section quickstart">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Quick Start</p>
+            <h2>See the MCP Server Running in VS Code.</h2>
+          </div>
+          <div class="quickstart-grid">
+            <article class="quickstart-card">
+              <div>
+                <h3>1. Add the Server Configuration</h3>
+                <p>
+                  After updating your <span class="mono">mcp.json</span>, open
+                  the MCP panel and confirm the Copilot AgentOps server appears
+                  in the list.
+                </p>
+              </div>
+              <figure class="screenshot">
+                <img
+                  src="https://raw.githubusercontent.com/ajilantony/copilot-agentops/main/image.png"
+                  alt="VS Code MCP panel showing the Copilot AgentOps server configuration"
+                  loading="lazy"
+                />
+                <figcaption class="muted">MCP server listed in VS Code.</figcaption>
+              </figure>
+            </article>
+            <article class="quickstart-card">
+              <div>
+                <h3>2. Start the Container</h3>
+                <p>
+                  Click Start to pull the Docker image. Once running, the MCP
+                  panel lists the available tools and prompts.
+                </p>
+              </div>
+              <figure class="screenshot">
+                <img
+                  src="https://raw.githubusercontent.com/ajilantony/copilot-agentops/main/image-1.png"
+                  alt="MCP server running in VS Code with tools and prompts listed"
+                  loading="lazy"
+                />
+                <figcaption class="muted">Tools and prompts ready to use.</figcaption>
+              </figure>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-title">
+            <p class="eyebrow">Use the Accelerator</p>
+            <h2>Apply Reusable Assets in Everyday Workflows.</h2>
+          </div>
+          <div class="doc-grid">
+            <article class="doc-card">
+              <h3>Custom Agents</h3>
+              <p>
+                Choose a custom agent when assigning a GitHub issue to Copilot
+                coding agent, or activate it inside VS Code sessions.
+              </p>
+            </article>
+            <article class="doc-card">
+              <h3>Prompts</h3>
+              <p>
+                Use the slash command in Copilot Chat to access prompts.
+              </p>
+              <pre class="code-block"><code>/copilot-agentops create-readme</code></pre>
+            </article>
+            <article class="doc-card">
+              <h3>Instructions</h3>
+              <p>
+                Instructions automatically apply to files that match their
+                patterns, keeping standards consistent across repos.
+              </p>
+            </article>
+            <article class="doc-card">
+              <h3>Hooks</h3>
+              <p>
+                Use hooks to automate workflows on sessionStart, sessionEnd, and
+                userPromptSubmitted events.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section callout">
+        <div class="container callout-grid">
+          <div>
+            <h2>Need Deeper Guides?</h2>
+            <p>
+              Explore the full documentation in the repository for step-by-step
+              guidance on each asset type.
+            </p>
+          </div>
+          <div class="cta-stack">
+            <a
+              class="button"
+              href="https://github.com/ajilantony/copilot-agentops"
+              target="_blank"
+              rel="noreferrer"
+              >Open Copilot AgentOps</a
+            >
+            <a
+              class="button ghost"
+              href="https://github.com/ajilantony/copilot-agentops-mcp"
+              target="_blank"
+              rel="noreferrer"
+              >Open MCP server</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="brand-name">Copilot AgentOps</p>
+          <p class="muted">Accelerator for GitHub Copilot</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="https://github.com/ajilantony/copilot-agentops" target="_blank" rel="noreferrer">Library</a>
+          <a href="https://github.com/ajilantony/copilot-agentops-mcp" target="_blank" rel="noreferrer">MCP Server</a>
+          <a href="mailto:hello@copilotagentops.com">Contact</a>
+        </div>
+        <p class="muted">© 2026 Copilot AgentOps. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
